@@ -20,7 +20,7 @@ namespace PayCoreHomeWork1.Controllers
             interest.interestAmount = interest.totalBalance - mainMoney; // Faizin kazandırdığı miktar.
                                                                          //
 
-            // ↓ Görsel olarak daha güzel durması için virgülden sonra 3 rakam alıyorum ↓ //
+            // ↓ Görsel olarak daha güzel durması için virgülden sonra 2 rakam alıyorum ↓ //
             interest.totalBalance = Math.Round(interest.totalBalance, 2);
             interest.interestAmount = Math.Round(interest.interestAmount, 2); //
 
